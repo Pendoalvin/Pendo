@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENDO ALVIN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="container">
+            <nav>
+                <label href="index.html" class="logo">Pendo Alvin</label>
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-times" onclick="closemenu()" ></i>
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB APP Developer <br>& UI/UX Designer</p>
+                <h1>Hello, <br> I'm <span>Pendo Alvin</span> <br> from Uganda.</h1>
+            </div>
+        </div>
+        
+    </div>
+                   <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+             <img src="img/alvin.jpg" alt="pendo-alvin">
+                </div>
+                <div class="about-col-2">
+              <h1 class="sub-title" >About Me</h1>
+              <p>I am a Full stack software engineer based in Uganda, <br> currently focused on web app design and development. <br> I am very familiar with frameworks and libraries such as react, <br> jQuery, tailwindcss, django and bootsrap 5.</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-content active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces.</li>
+                    <li><span>Web Development</span><br>Web App Development.</li>
+                    <li><span>App Development</span><br>Building Andriod/iOS Apps.</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="experience">
+                <ul>
+                    <li><span>2021 - Current</span><br> Bixons LLC.</li>
+                    <li>Web App Development.</li>
+                    <li>Building Andriod/iOS Apps.</li>
+                </ul>
+              </div>
+              <div class="tab-content" id="education">
+                <ul>
+                    <li><span>2020 - 2021</span><br>Havard University <br> Computer Science, CS50.</li>
+                    <li><span>2015 - 2020</span><br>Makerere University</li>
+                    <li>Ba. Transport & Logistics Management.</li>
+                </ul>
+              </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                              <!-- Services -->
+    <div id="services">
+        <div class="container">
+          <h1 class="sub-title" >My Services </h1>  
+          <div class="services-list">
+            <div>
+                <i class="fa fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Get a beautiful website design to attract more visitors' <br> attention to learn more about the services you offer. <br> I will design a professional website that will get <br> the job done right to potray your organization <br> on the world wide web and at a good price. </p>
+                <a href="">Get Started</a>
+            </div>
+             <div>
+                <i class="fa fa-html5"></i>
+                <h2>Web Development</h2>
+                <p>Let's build a beautiful website together matching your needs and your clients with updated technology, responsive on all devices and optimised to rank highest on the search engines.<br> Let your business become accessible to over millions of potential customers across the world today! </p>
+                <a href="">Get Started</a>
+            </div>
+             <div>
+                <i class="fa fa-crop"></i>
+                <h2>Graphics Design & Branding</h2>
+                <p>I have a strong <em>marketing</em> background and <br> experience in <strong> graphics design</strong> that will help promote your services on the web, social media or offline events.</p>
+                <a href="">Get Started</a>
+            </div>
+
+          </div>
+        </div>
+    </div>
+                           <!-- Portfolio -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" >My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png">
+                    <div class="layer">
+                        <h3>Fun Apps</h3>
+                        <p>Simple mobile applications to help boost your memory and reduce on the stress levels.</p>
+                        <a href=""><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="img/code.jpg">
+                    <div class="layer">
+                        <h3>Web App Development</h3>
+                        <p>Hard-Coded, beautiful UI/UX web apps built with the latest technology. For both Front and Back-End development.</p>
+                        <a href=""><i class="fa fa-external-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png">
+                    <div class="layer">
+                        <h3>E-commerce web app</h3>
+                        <p>100% responsive e-commerce web app to help grow your business to the next level.</p>
+                        <a href=""><i class="fa fa-external-link"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="" class="btn" >Know More</a>
+        </div>
+     </div>                      
+                                                 <!-- contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><span><a href="mailto:pendoalvin@live.com,pendoalvin@gmail.com"><i class="fa fa-envelope-o"></i>pendoalvin@live.com</a></span></p> 
+                   <p><span><a href="https://wa.me/+256780293065"><i class="fa fa-whatsapp"></i>+256780293065</a></span></p>
+                   <p><span><a href="tel:+256755515291"><i class="fa fa-phone" ></i>+256755515291</a></span></a></span></p>
+                   <div class="social-icons">
+                   <h3>Let's chat on</h3>
+                   <a href="https://www.twitter.com/pendoalvin"><i class="fa fa-twitter"></i></a>
+                   <a href="https://www.instagram.com/pendoalvin"><i class="fa fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/in/alvin-pendo-b10a1266/"><i class="fa fa-linkedin"></i></a>
+                   </div>
+                   <a href="img/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                     <form name="submit-to-google-sheet">
+                     <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="email" placeholder="Your Email" required>
+                     <textarea name="Message" rows="7" placeholder="Your Message" required></textarea>
+                     <button type="submit" class="btn btn2" id="send" >SEND</button>
+
+                     </form>
+                     <span id="msg">
+                        
+                     </span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>  ©2022 Pendo Alvin. </p>
+            </div>
+        </div>                                         
+
+  
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+<script src="app.js"></script>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontent = document.getElementsByClassName("tab-content");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link"); 
+    }
+     for(tabcontent of tabcontent){
+        tabcontent.classList.remove("active-tab"); 
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycbywig9JXd36ISThPd7xAAt3wPSjefjZTMfyVYjLONqFzg6o1iS9J8xGEcWuKMcemJehaw/exec"
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully."
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+    })
+
+</script>
+  
+</body>
+</html>
